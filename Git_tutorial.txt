@@ -8,3 +8,10 @@ Para começar a versionar um arquivo, usa-se git commit -m "Escreva o que foi at
 Para enviar os arquivos para a nuvem do github, é necessario entrar no github, clicar no +, new repository, repository name, e terminar de preencher as outras colunas ;
 Após criar o repositório, copie o link dele acima, entre no prompt do git e digite: git remote add origin "cole o link" e enter ;
 Agora comando git push, irá disponibilizar um codigo por conta de não ter selecionado a brunch que ele irá, cole ele e enter ;
+Para eniar outras atualizações basta seguir esses passos ;
+
+Para conseguir ver as atualizações, usa-se git reflog; irá mostrar todas versões do arquivo ;
+
+Para voltar a alguma versão desejada usa-se git reflog, você irá ver as versões com seu id, usa-se git reset --hard e escreva o id da versão aqui ;
+
+
